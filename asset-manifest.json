@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/kwohyuno_website_fe/static/css/main.cdaef177.css",
+    "main.css": "/kwohyuno_website_fe/static/css/main.b653aaa4.css",
     "main.js": "/kwohyuno_website_fe/static/js/main.1d1b7f55.js",
     "static/js/488.e75445ad.chunk.js": "/kwohyuno_website_fe/static/js/488.e75445ad.chunk.js",
     "static/media/profile_img.jpeg": "/kwohyuno_website_fe/static/media/profile_img.5b5b5c26644ab5ccf5c0.jpeg",
     "static/media/logo.svg": "/kwohyuno_website_fe/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kwohyuno_website_fe/index.html",
-    "main.cdaef177.css.map": "/kwohyuno_website_fe/static/css/main.cdaef177.css.map",
+    "main.b653aaa4.css.map": "/kwohyuno_website_fe/static/css/main.b653aaa4.css.map",
     "main.1d1b7f55.js.map": "/kwohyuno_website_fe/static/js/main.1d1b7f55.js.map",
     "488.e75445ad.chunk.js.map": "/kwohyuno_website_fe/static/js/488.e75445ad.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdaef177.css",
+    "static/css/main.b653aaa4.css",
     "static/js/main.1d1b7f55.js"
   ]
 }
