@@ -1,70 +1,147 @@
-# Getting Started with Create React App
+# Jake Hyunoh Kwon - Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📋 Project Overview
 
-## Available Scripts
+This project is Jake Hyunoh Kwon's personal portfolio website. It's a frontend application built with React that systematically showcases personal career, education, projects, study content, and certificates in a portfolio format.
 
-In the project directory, you can run:
+## 🚀 Tech Stack
 
-### `npm start`
+### Frontend
+- **React 18.3.1** - User interface development
+- **React Router DOM 7.0.2** - Client-side routing
+- **React Icons 5.4.0** - Icon library
+- **CSS3** - Styling
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Backend (Including Gradle Configuration)
+- **Spring Boot 3.4.0** - Backend framework
+- **Java 17** - Programming language
+- **Lombok** - Boilerplate code reduction
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Development Tools
+- **Create React App** - React project bootstrap
+- **npm** - Package manager
+- **GitHub Pages** - Static site hosting
 
-### `npm test`
+## 📁 Project Structure
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+src/
+├── pages/                    # Page components
+│   ├── mainpage/            # Main page
+│   ├── project/             # Project page
+│   ├── career/              # Career page
+│   ├── education/           # Education page
+│   ├── study/               # Study page
+│   ├── certificate/         # Certificate page
+│   └── components/          # Common components
+│       └── Header.js        # Navigation header
+├── router/                  # Routing configuration
+│   ├── RouteMain.js         # Main route definitions
+│   └── Root.js              # Root router
+├── resources/               # Static resources
+└── main/                    # Main application files
+```
 
-### `npm run build`
+## 🎯 Key Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 1. Main Page (Mainpage)
+- Personal introduction and profile image
+- Social media links (GitHub, LinkedIn)
+- Self-introduction and career summary
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 2. Project Page (Project)
+- Major project portfolio
+- Detailed project information through modals
+- Technology stack and GitHub links
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 3. Career Page (Career)
+- Work experience and job descriptions
+- Detailed information by company
 
-### `npm run eject`
+### 4. Education Page (Education)
+- Academic background and education history
+- Degree and major information
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 5. Study Page (Study)
+- Learning content and technology stack
+- Continuous learning records
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 6. Certificate Page (Certificate)
+- Certificates and certifications
+- Acquisition dates and issuing organizations
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Installation and Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Prerequisites
+- Node.js (v14 or higher)
+- npm or yarn
+- Java 17 (for backend development)
 
-## Learn More
+### Installation Steps
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. **Clone Repository**
+```bash
+git clone https://github.com/kwohyuno/kwohyuno_website_fe.git
+cd kwohyuno_website_fe
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. **Install Dependencies**
+```bash
+npm install
+```
 
-### Code Splitting
+3. **Start Development Server**
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. **Open in Browser**
+```
+http://localhost:3000
+```
 
-### Analyzing the Bundle Size
+### Build and Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**Production Build**
+```bash
+npm run build
+```
 
-### Making a Progressive Web App
+**GitHub Pages Deployment**
+```bash
+npm run deploy
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔧 Available Scripts
 
-### Advanced Configuration
+- `npm start` - Start development server (http://localhost:3000)
+- `npm test` - Run tests
+- `npm run build` - Build for production
+- `npm run eject` - Extract configuration files (Warning: irreversible)
+- `npm run predeploy` - Build before deployment
+- `npm run deploy` - Deploy to GitHub Pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 🌐 Deployment
 
-### Deployment
+This project is deployed via GitHub Pages:
+- **URL**: https://kwohyuno.github.io/my-react-app
+- **Deployment Branch**: gh-pages
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👨‍💻 Developer Information
 
-### `npm run build` fails to minify
+**Jake Hyunoh Kwon**
+- **Location**: San Francisco, CA
+- **GitHub**: [kwohyuno](https://github.com/kwohyuno)
+- **LinkedIn**: [hkwon7](https://www.linkedin.com/in/hkwon7/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 📝 License
+
+This project is created for personal portfolio purposes.
+
+## 🤝 Contributing
+
+This is a personal portfolio website, so external contributions are not accepted.
+
+---
+
+**"Let's Work Hard, Have fun, and Make history!"** - Jake Hyunoh Kwon
